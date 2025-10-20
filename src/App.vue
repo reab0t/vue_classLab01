@@ -135,6 +135,8 @@ const handleSubmitNews = (newsData) => {
       <p>&copy; 2025 社交反假新闻系统 - 利用群体智慧识别假新闻</p>
     </footer>
   </div>
+  <!-- Vercel Speed Insights 性能监控 -->
+  <SpeedInsights />
 </template>
 
 <style scoped>
