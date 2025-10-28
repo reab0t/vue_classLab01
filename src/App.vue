@@ -138,11 +138,6 @@ const handleSubmitNews = (newsData) => {
       <p>&copy; 2025 社交反假新闻系统 - 利用群体智慧识别假新闻</p>
     </footer>
   </div>
-  <!-- 性能监控组件 -->
-  <script setup>
-  import { SpeedInsights } from '@vercel/speed-insights/vue'
-  </script>
-  <SpeedInsights />
 </template>
 
 <style scoped>
