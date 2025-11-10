@@ -1,3 +1,10 @@
+# Group Name:TV station
+    TEAMS:
+        JinLei / lynden 20222102
+        Zhou WenZe / Unicornt 20222099
+    The URL of the deployed website:
+https://vue-class-lab01.vercel.app/
+
 # 社交反假新闻系统 (Fake or Not Fake)
 
 一个基于Vue.js开发的社交反假新闻系统，旨在利用群体智慧帮助识别和验证新闻的真实性。
@@ -43,41 +50,8 @@
 
 ### 前置要求
 
-- Node.js 20.19.0或更高版本
-- npm 或 yarn
-
-### 安装步骤
-
-1. 克隆项目到本地
-
-```bash
-git clone <仓库地址>
-cd vue_design
-```
-
-2. 安装依赖
-
-```bash
-npm install
-```
-
-3. 启动开发服务器
-
-```bash
-npm run dev
-```
-
-4. 构建生产版本
-
-```bash
-npm run build
-```
-
-5. 预览生产版本
-
-```bash
-npm run preview
-```
+- Node.js 20.19.0
+- npm
 
 ## 数据说明
 
@@ -92,36 +66,4 @@ npm run preview
 - 在移动设备上，新闻卡片单列垂直排列
 - 导航和控制元素会根据屏幕尺寸自适应调整
 
-## 部署
 
-项目可以通过以下方式部署：
-
-1. **Vercel部署**：
-   - 注册Vercel账号
-   - 连接GitHub仓库
-   - Vercel会自动检测项目类型并配置构建命令
-   - 部署完成后获得访问URL
-
-2. **其他静态网站托管服务**：
-   - 执行 `npm run build` 生成静态文件
-   - 将 `dist` 目录下的文件上传到托管服务
-
-## 开发说明
-
-### 添加新功能
-
-1. 在 `components` 目录下创建新的组件
-2. 在 `services` 目录下添加相应的数据服务
-3. 在 `App.vue` 中引入并使用新组件
-
-### 模拟数据
-
-如果需要调整模拟数据，可以修改 `services/newsService.js` 文件中的 `generateMockNews` 函数。
-
-## 贡献
-
-欢迎提交问题和改进建议。
-
-## 许可证
-
-该项目仅供学习和演示使用。
