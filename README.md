@@ -2,7 +2,8 @@
     TEAMS:
         JinLei / lynden 20222102
         Zhou WenZe / Unicornt 20222099
-    The URL of the deployed website:
+
+The URL of the deployed website:
 https://vue-class-lab01.vercel.app/
 
 # 社交反假新闻系统 (Fake or Not Fake)
